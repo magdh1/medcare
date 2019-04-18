@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title id="pageTitle">
+      Titel
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-title id="name">
+      Spital
+    </ion-card-title>
+    <ion-card-content>
+      <ion-label>Opening hours: </ion-label>
+      <ion-label id="opH"></ion-label><br>
+      <ion-label>Phone Nr.: </ion-label>
+      <ion-label id="phone"></ion-label><br>
+      <ion-label>Adresse: </ion-label>
+      <ion-label id="adr"></ion-label><br>
+    </ion-card-content>
+    <ion-toolbar class='toolbar'>
+      <ion-button slot='primary'>
+        <ion-icon name='call'></ion-icon>
+      </ion-button>
+      <ion-button slot='secondary'>
+        <ion-icon name='calendar'></ion-icon>
+      </ion-button>
+      <ion-button slot='primary'>
+        <ion-icon name='pin'></ion-icon>
+      </ion-button>
+      <ion-button slot='secondary'>
+          <ion-icon name='logo-usd'></ion-icon>
+        </ion-button>
+    </ion-toolbar>
+  </ion-card>
+</ion-content>
