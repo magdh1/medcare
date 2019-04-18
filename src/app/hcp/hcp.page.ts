@@ -15,7 +15,9 @@ export class HcpPage implements OnInit {
     'Tarhouna',
     'Darna'
   ];
-  
+  /**
+   * the comment
+   */
   public items: Array<{cities: string}> =[];
 /*   : Array<{ title: string; note: string }> = [];
  */  constructor() {
