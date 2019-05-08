@@ -40,4 +40,35 @@
         </ion-button>
     </ion-buttons></ion-toolbar>
   </ion-card>
+
+  <ion-card>
+    <ion-card-title id="name">
+      Spital
+    </ion-card-title>
+    <ion-card-content>
+      <ion-label>Opening hours: </ion-label>
+      <ion-label id="opH"></ion-label><br>
+      <ion-label>Phone Nr.: </ion-label>
+      <ion-label id="phone"></ion-label><br>
+      <ion-label>Adresse: </ion-label>
+      <ion-label id="adr"></ion-label><br>
+    </ion-card-content>
+    <ion-toolbar end>
+    <ion-buttons class='toolbar' right> 
+      <a button href="tel:555-555-5555" target="_system">
+      <ion-button >
+        <ion-icon name='call'></ion-icon>
+      </ion-button></a>
+      <ion-button >
+        <ion-icon name='calendar'></ion-icon>
+      </ion-button>
+      <a href="geo:?daddr=32.885353,13.180161" target="_system">
+      <ion-button  (click)="gMaps()">
+        <ion-icon name='pin'></ion-icon>
+      </ion-button></a>
+      <ion-button >
+          <ion-icon name='logo-usd'></ion-icon>
+        </ion-button>
+    </ion-buttons></ion-toolbar>
+  </ion-card>
 </ion-content>

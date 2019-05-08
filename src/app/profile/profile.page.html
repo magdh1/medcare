@@ -13,31 +13,32 @@
   <ion-card>
   <ion-list>
       <ion-avatar>
-        
+        <ion-img src="/assets/profilbild.png">
+        </ion-img>
       </ion-avatar>
     <ion-row> 
       <ion-label>Name: </ion-label>
-      <ion-label> </ion-label>
+      <ion-label id="labels">Hager</ion-label>
     </ion-row>
      <ion-row>
       <ion-label>Birthdate: </ion-label>
-      <ion-label> </ion-label>
+      <ion-label id="labels">1994-03-05</ion-label>
     </ion-row>
     <ion-row>
       <ion-label>Gender: </ion-label>
-      <ion-label> </ion-label>
+      <ion-label id="labels">f</ion-label>
     </ion-row>
     <ion-row>
       <ion-label>Blood type: </ion-label>
-      <ion-label> </ion-label>
+      <ion-label> -</ion-label>
     </ion-row>
     <ion-row>
       <ion-label>Height: </ion-label>
-      <ion-label> </ion-label>
+      <ion-label> -</ion-label>
     </ion-row>
     <ion-row>
       <ion-label>Weight: </ion-label>
-      <ion-label> </ion-label>
+      <ion-label> -</ion-label>
     </ion-row>
     </ion-list>
   </ion-card>
@@ -53,6 +54,6 @@
       <ion-label>New password: </ion-label>
       <ion-input> </ion-input>
     </ion-row>
-    <ion-button>Save</ion-button>
+    <ion-button onclick="resetP()">Save</ion-button>
     </ion-list></ion-card>
 </ion-content>
