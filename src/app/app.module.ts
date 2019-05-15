@@ -1,4 +1,4 @@
-import { NgModule, ErrorHandler } from '@angular/core';
+import { NgModule, ErrorHandler, Injectable } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 
@@ -14,12 +14,21 @@ import { Geolocation } from '@ionic-native/geolocation';
 
 import { HttpModule } from '@angular/http';
 
+import { HttpClientModule } from '@angular/common/http';
 
+import { CommonModule } from "@angular/common";
+
+
+@Injectable({
+  providedIn: 'root',
+ })
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    CommonModule,
     IonicModule.forRoot(),
     AppRoutingModule
   ],

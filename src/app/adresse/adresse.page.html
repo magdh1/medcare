@@ -12,63 +12,225 @@
 <ion-content>
   <ion-card>
     <ion-card-title id="name">
-      Spital
+      Dar Alwafa
     </ion-card-title>
     <ion-card-content>
       <ion-label>Opening hours: </ion-label>
       <ion-label id="opH"></ion-label><br>
       <ion-label>Phone Nr.: </ion-label>
-      <ion-label id="phone"></ion-label><br>
+      <ion-label id="phone">021-7225549</ion-label><br>
       <ion-label>Adresse: </ion-label>
       <ion-label id="adr"></ion-label><br>
     </ion-card-content>
     <ion-toolbar end>
     <ion-buttons class='toolbar' right> 
-      <a button href="tel:555-555-5555" target="_system">
+      <a button href="tel:021-7225549" target="_system">
       <ion-button >
         <ion-icon name='call'></ion-icon>
       </ion-button></a>
-      <ion-button >
-        <ion-icon name='calendar'></ion-icon>
+        <ion-button (click)="alert()">
+        <ion-icon name='calendar' style="color: #006f8e"></ion-icon>
       </ion-button>
       <a href="geo:?daddr=32.885353,13.180161" target="_system">
       <ion-button  (click)="gMaps()">
         <ion-icon name='pin'></ion-icon>
       </ion-button></a>
-      <ion-button >
+      <a href="/alert-prices">
+      <ion-button>
           <ion-icon name='logo-usd'></ion-icon>
-        </ion-button>
+        </ion-button></a>
     </ion-buttons></ion-toolbar>
   </ion-card>
 
   <ion-card>
     <ion-card-title id="name">
-      Spital
+      Alreaya Alshamila
     </ion-card-title>
     <ion-card-content>
       <ion-label>Opening hours: </ion-label>
       <ion-label id="opH"></ion-label><br>
       <ion-label>Phone Nr.: </ion-label>
-      <ion-label id="phone"></ion-label><br>
+      <ion-label id="phone"> 0913731336</ion-label><br>
       <ion-label>Adresse: </ion-label>
       <ion-label id="adr"></ion-label><br>
     </ion-card-content>
     <ion-toolbar end>
     <ion-buttons class='toolbar' right> 
-      <a button href="tel:555-555-5555" target="_system">
+      <a button href="tel:0913731336" target="_system">
       <ion-button >
         <ion-icon name='call'></ion-icon>
       </ion-button></a>
-      <ion-button >
-        <ion-icon name='calendar'></ion-icon>
+      <ion-button (click)="alert()">
+        <ion-icon name='calendar' style="color: #006f8e"></ion-icon>
       </ion-button>
       <a href="geo:?daddr=32.885353,13.180161" target="_system">
       <ion-button  (click)="gMaps()">
         <ion-icon name='pin'></ion-icon>
       </ion-button></a>
-      <ion-button >
+      <a href="/alert-prices">
+      <ion-button>
           <ion-icon name='logo-usd'></ion-icon>
-        </ion-button>
+        </ion-button></a>
     </ion-buttons></ion-toolbar>
   </ion-card>
+
+  <ion-card>
+      <ion-card-title id="name">
+        Firdaus
+      </ion-card-title>
+      <ion-card-content>
+        <ion-label>Opening hours: </ion-label>
+        <ion-label id="opH"></ion-label><br>
+        <ion-label>Phone Nr.: </ion-label>
+        <ion-label id="phone"> 021-7134444</ion-label><br>
+        <ion-label>Adresse: </ion-label>
+        <ion-label id="adr"></ion-label><br>
+      </ion-card-content>
+      <ion-toolbar end>
+      <ion-buttons class='toolbar' right> 
+        <a button href="tel:0217134444" target="_system">
+        <ion-button >
+          <ion-icon name='call'></ion-icon>
+        </ion-button></a>
+        <ion-button (click)="alert()">
+          <ion-icon name='calendar' style="color: #006f8e"></ion-icon>
+        </ion-button>
+        <a href="geo:?daddr=32.885353,13.180161" target="_system">
+        <ion-button  (click)="gMaps()">
+          <ion-icon name='pin'></ion-icon>
+        </ion-button></a>
+        <a href="/alert-prices">
+        <ion-button>
+            <ion-icon name='logo-usd'></ion-icon>
+          </ion-button></a>
+      </ion-buttons></ion-toolbar>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-title id="name">
+          Libyan Swiss Medical Center
+        </ion-card-title>
+        <ion-card-content>
+          <ion-label>Opening hours: </ion-label>
+          <ion-label id="opH"></ion-label><br>
+          <ion-label>Phone Nr.: </ion-label>
+          <ion-label id="phone"> 021-3614104</ion-label><br>
+          <ion-label>Adresse: </ion-label>
+          <ion-label id="adr"></ion-label><br>
+        </ion-card-content>
+        <ion-toolbar end>
+        <ion-buttons class='toolbar' right> 
+          <a button href="tel:0213614104" target="_system">
+          <ion-button >
+            <ion-icon name='call'></ion-icon>
+          </ion-button></a>
+          <ion-button (click)="alert()">
+            <ion-icon name='calendar' style="color: #006f8e"></ion-icon>
+          </ion-button>
+          <a href="geo:?daddr=32.885353,13.180161" target="_system">
+          <ion-button  (click)="gMaps()">
+            <ion-icon name='pin'></ion-icon>
+          </ion-button></a>
+          <a href="/alert-prices">
+          <ion-button>
+              <ion-icon name='logo-usd'></ion-icon>
+            </ion-button></a>
+        </ion-buttons></ion-toolbar>
+      </ion-card>
+
+      <ion-card>
+          <ion-card-title id="name">
+            Taj Alseha
+          </ion-card-title>
+          <ion-card-content>
+            <ion-label>Opening hours: </ion-label>
+            <ion-label id="opH"></ion-label><br>
+            <ion-label>Phone Nr.: </ion-label>
+            <ion-label id="phone"> 0911100021</ion-label><br>
+            <ion-label>Adresse: </ion-label>
+            <ion-label id="adr"></ion-label><br>
+          </ion-card-content>
+          <ion-toolbar end>
+          <ion-buttons class='toolbar' right> 
+            <a button href="tel:0911100021" target="_system">
+            <ion-button >
+              <ion-icon name='call'></ion-icon>
+            </ion-button></a>
+            <ion-button (click)="alert()">
+              <ion-icon name='calendar' style="color: #006f8e"></ion-icon>
+            </ion-button>
+            <a href="geo:?daddr=32.885353,13.180161" target="_system">
+            <ion-button  (click)="gMaps()">
+              <ion-icon name='pin'></ion-icon>
+            </ion-button></a>
+            <a href="/alert-prices">
+            <ion-button>
+                <ion-icon name='logo-usd'></ion-icon>
+              </ion-button></a>
+          </ion-buttons></ion-toolbar>
+        </ion-card>
+
+        <ion-card>
+            <ion-card-title id="name">
+              Libyan Maltese Medical Center
+            </ion-card-title>
+            <ion-card-content>
+              <ion-label>Opening hours: </ion-label>
+              <ion-label id="opH"></ion-label><br>
+              <ion-label>Phone Nr.: </ion-label>
+              <ion-label id="phone"> 021-2203764</ion-label><br>
+              <ion-label>Adresse: </ion-label>
+              <ion-label id="adr"></ion-label><br>
+            </ion-card-content>
+            <ion-toolbar end>
+            <ion-buttons class='toolbar' right> 
+              <a button href="tel:0212203764" target="_system">
+              <ion-button >
+                <ion-icon name='call'></ion-icon>
+              </ion-button></a>
+              <ion-button (click)="alert()">
+                <ion-icon name='calendar' style="color: #006f8e"></ion-icon>
+              </ion-button>
+              <a href="geo:?daddr=32.885353,13.180161" target="_system">
+              <ion-button  (click)="gMaps()">
+                <ion-icon name='pin'></ion-icon>
+              </ion-button></a>
+              <a href="/alert-prices">
+              <ion-button>
+                  <ion-icon name='logo-usd'></ion-icon>
+                </ion-button></a>
+            </ion-buttons></ion-toolbar>
+          </ion-card>
+
+          <ion-card>
+              <ion-card-title id="name">
+                Mukhtar
+              </ion-card-title>
+              <ion-card-content>
+                <ion-label>Opening hours: </ion-label>
+                <ion-label id="opH"></ion-label><br>
+                <ion-label>Phone Nr.: </ion-label>
+                <ion-label id="phone"> 0213601239</ion-label><br>
+                <ion-label>Adresse: </ion-label>
+                <ion-label id="adr"></ion-label><br>
+              </ion-card-content>
+              <ion-toolbar end>
+              <ion-buttons class='toolbar' right> 
+                <a button href="tel:0213601239" target="_system">
+                <ion-button >
+                  <ion-icon name='call'></ion-icon>
+                </ion-button></a>
+                <ion-button (click)="alert()">
+                  <ion-icon name='calendar' style="color: #006f8e"></ion-icon>
+                </ion-button>
+                <a href="geo:?daddr=32.885353,13.180161" target="_system">
+                <ion-button  (click)="gMaps()">
+                  <ion-icon name='pin'></ion-icon>
+                </ion-button></a>
+                <a href="/alert-prices">
+                <ion-button>
+                    <ion-icon name='logo-usd'></ion-icon>
+                  </ion-button></a>
+              </ion-buttons></ion-toolbar>
+            </ion-card>
 </ion-content>

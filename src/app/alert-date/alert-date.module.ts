@@ -4,8 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
-import { AdressePage } from './adresse.page';
-
+import { AlertDatePage } from './alert-date.page';
 
 @NgModule({
   imports: [
@@ -15,10 +14,10 @@ import { AdressePage } from './adresse.page';
     RouterModule.forChild([
       {
         path: '',
-        component: AdressePage
+        component: AlertDatePage
       }
     ])
   ],
-  declarations: [AdressePage]
+  declarations: [AlertDatePage]
 })
-export class AdressePageModule {}
+export class AlertDatePageModule {}

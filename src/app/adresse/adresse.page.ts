@@ -1,9 +1,13 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { LaunchNavigator, LaunchNavigatorOptions } from '@ionic-native/launch-navigator/ngx';
-import { NavController, Platform } from '@ionic/angular';
+import { NavController, Platform, IonHeader, ModalController } from '@ionic/angular';
 import { Geolocation } from '@ionic-native/geolocation';
 /* import {GoogleMap, GoogleMapsEvent, GoogleMapsLatLng, 
   GoogleMapsMarkerOptions, GoogleMapsMarker, CameraPosition} from 'ionic-native'; */
+  
+  import { AlertController } from '@ionic/angular';
+import { AlertPricesPage } from '../alert-prices/alert-prices.page';
+  
 
 
 @Component({
@@ -16,31 +20,45 @@ export class AdressePage implements OnInit {
   
   ngOnInit() {
   }
-/* public map: GoogleMap;
-public mapRendered: Boolean= false;
-
-constructor(public navCtrl: NavController, public platform: Platform){
-this.platform.ready().then(() => {
-  this.showMap();
-});
+  constructor(private alertCtrl: AlertController,public modalController: ModalController,
+    public navCtrl: NavController) {
 }
-
-showMap() {
-  let location = new GoogleMapsLatLng(47.6062, -122.3321);
-  this.map = new GoogleMap('map', {
-    'camera': {
-      'latLng': location,
-      'tilt': 30,
-      'zoom': 15,
-      'bearing': 50
+   async alert(){
+    let alert = await this.alertCtrl.create({
+      header: 'Suggest a date',
+      inputs: [
+        {
+        name: 'Date',
+        placeholder: 'DD-MM-YYY',
+        
+        },
+        {
+        name: 'Time',
+        placeholder: 'HH-MM'
+        }
+      ],
+      buttons: [
+        {
+          text: 'OK',
+          role: 'push',
+          handler: data => {
+            console.log();
+          }
+        },
+        {
+          text: 'Cancel',
+          role: 'cancel',
+          handler: data => {
+            console.log();
+          }
+        }],
+      cssClass: 'alertStyle'
+      });
+      return await alert.present()
     }
-  });
-  this.map.on(GoogleMapsEvent.MAP_READY).subscribe(() => {
-    console.log('Map is ready!');
-    this.mapRendered = true;
-  });
-} */
-//constructor(private launchNavigator: LaunchNavigator) { }
+
+     
+
   gMaps(){
     /* this.map.getMyLocation().then((location) => {
       var msg = ["I am here:\n","latitude:"+location.latLng.lat,

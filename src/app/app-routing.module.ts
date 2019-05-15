@@ -33,7 +33,15 @@ const routes: Routes = [
   {
     path: 'adresse',
     loadChildren: './adresse/adresse.module#AdressePageModule'
-  }
+  },
+  {
+    path: 'alert-date',
+    loadChildren: './alert-date/alert-date.module#AlertDatePageModule'
+  },
+  {
+    path: 'alert-prices',
+    loadChildren: './alert-prices/alert-prices.module#AlertPricesPageModule'
+  } 
 ];
 
 @NgModule({
