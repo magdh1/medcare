@@ -4,7 +4,7 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title id="pageTitle">
-      Titel
+      Tripolis
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,15 +12,16 @@
 <ion-content>
   <ion-card>
     <ion-card-title id="name">
-      Dar Alwafa
-    </ion-card-title>
+      <ion-item >
+      <h1>{{providers[0].name}}</h1></ion-item>
+      </ion-card-title>
     <ion-card-content>
       <ion-label>Opening hours: </ion-label>
-      <ion-label id="opH"></ion-label><br>
+      <ion-label id="opH">{{providers[0].opH}}</ion-label><br>
       <ion-label>Phone Nr.: </ion-label>
-      <ion-label id="phone">021-7225549</ion-label><br>
+      <ion-label id="phone">{{providers[0].phone}}</ion-label><br>
       <ion-label>Adresse: </ion-label>
-      <ion-label id="adr"></ion-label><br>
+      <ion-label id="adr">{{providers[0].adresse}}</ion-label><br>
     </ion-card-content>
     <ion-toolbar end>
     <ion-buttons class='toolbar' right> 
@@ -44,15 +45,17 @@
 
   <ion-card>
     <ion-card-title id="name">
-      Alreaya Alshamila
-    </ion-card-title>
+        <ion-item >
+            <h1>{{providers[1].name}}</h1>
+          </ion-item>
+            </ion-card-title>
     <ion-card-content>
       <ion-label>Opening hours: </ion-label>
-      <ion-label id="opH"></ion-label><br>
+      <ion-label id="opH">{{providers[1].opH}}</ion-label><br>
       <ion-label>Phone Nr.: </ion-label>
-      <ion-label id="phone"> 0913731336</ion-label><br>
+      <ion-label id="phone"> {{providers[1].phone}}</ion-label><br>
       <ion-label>Adresse: </ion-label>
-      <ion-label id="adr"></ion-label><br>
+      <ion-label id="adr">{{providers[1].adresse}}</ion-label><br>
     </ion-card-content>
     <ion-toolbar end>
     <ion-buttons class='toolbar' right> 
@@ -76,15 +79,16 @@
 
   <ion-card>
       <ion-card-title id="name">
-        Firdaus
-      </ion-card-title>
+          <ion-item >
+              <h1>{{providers[2].name}}</h1></ion-item>
+              </ion-card-title>
       <ion-card-content>
         <ion-label>Opening hours: </ion-label>
-        <ion-label id="opH"></ion-label><br>
+        <ion-label id="opH">{{providers[2].opH}}</ion-label><br>
         <ion-label>Phone Nr.: </ion-label>
-        <ion-label id="phone"> 021-7134444</ion-label><br>
+        <ion-label id="phone"> {{providers[2].phone}}</ion-label><br>
         <ion-label>Adresse: </ion-label>
-        <ion-label id="adr"></ion-label><br>
+        <ion-label id="adr">{{providers[2].adresse}}</ion-label><br>
       </ion-card-content>
       <ion-toolbar end>
       <ion-buttons class='toolbar' right> 
@@ -108,15 +112,16 @@
 
     <ion-card>
         <ion-card-title id="name">
-          Libyan Swiss Medical Center
-        </ion-card-title>
+            <ion-item >
+                <h1>{{providers[3].name}}</h1></ion-item>
+                </ion-card-title>
         <ion-card-content>
           <ion-label>Opening hours: </ion-label>
-          <ion-label id="opH"></ion-label><br>
+          <ion-label id="opH">{{providers[3].opH}}</ion-label><br>
           <ion-label>Phone Nr.: </ion-label>
-          <ion-label id="phone"> 021-3614104</ion-label><br>
+          <ion-label id="phone"> {{providers[3].phone}}</ion-label><br>
           <ion-label>Adresse: </ion-label>
-          <ion-label id="adr"></ion-label><br>
+          <ion-label id="adr">{{providers[3].adresse}}</ion-label><br>
         </ion-card-content>
         <ion-toolbar end>
         <ion-buttons class='toolbar' right> 
@@ -140,15 +145,16 @@
 
       <ion-card>
           <ion-card-title id="name">
-            Taj Alseha
-          </ion-card-title>
+              <ion-item >
+                  <h1>{{providers[4].name}}</h1></ion-item>
+                  </ion-card-title>
           <ion-card-content>
             <ion-label>Opening hours: </ion-label>
-            <ion-label id="opH"></ion-label><br>
+            <ion-label id="opH">{{providers[4].opH}}</ion-label><br>
             <ion-label>Phone Nr.: </ion-label>
-            <ion-label id="phone"> 0911100021</ion-label><br>
+            <ion-label id="phone"> {{providers[4].phone}}</ion-label><br>
             <ion-label>Adresse: </ion-label>
-            <ion-label id="adr"></ion-label><br>
+            <ion-label id="adr">{{providers[4].adresse}}</ion-label><br>
           </ion-card-content>
           <ion-toolbar end>
           <ion-buttons class='toolbar' right> 
@@ -172,15 +178,16 @@
 
         <ion-card>
             <ion-card-title id="name">
-              Libyan Maltese Medical Center
-            </ion-card-title>
+                <ion-item >
+                    <h1>{{providers[5].name}}</h1></ion-item>
+                    </ion-card-title>
             <ion-card-content>
               <ion-label>Opening hours: </ion-label>
-              <ion-label id="opH"></ion-label><br>
+              <ion-label id="opH">{{providers[5].opH}}</ion-label><br>
               <ion-label>Phone Nr.: </ion-label>
-              <ion-label id="phone"> 021-2203764</ion-label><br>
+              <ion-label id="phone"> {{providers[5].phone}}</ion-label><br>
               <ion-label>Adresse: </ion-label>
-              <ion-label id="adr"></ion-label><br>
+              <ion-label id="adr">{{providers[5].adresse}}</ion-label><br>
             </ion-card-content>
             <ion-toolbar end>
             <ion-buttons class='toolbar' right> 
@@ -204,15 +211,16 @@
 
           <ion-card>
               <ion-card-title id="name">
-                Mukhtar
-              </ion-card-title>
+                  <ion-item >
+                      <h1>{{providers[6].name}}</h1></ion-item>
+                      </ion-card-title>
               <ion-card-content>
                 <ion-label>Opening hours: </ion-label>
-                <ion-label id="opH"></ion-label><br>
+                <ion-label id="opH">{{providers[6].opH}}</ion-label><br>
                 <ion-label>Phone Nr.: </ion-label>
-                <ion-label id="phone"> 0213601239</ion-label><br>
+                <ion-label id="phone"> {{providers[6].phone}}</ion-label><br>
                 <ion-label>Adresse: </ion-label>
-                <ion-label id="adr"></ion-label><br>
+                <ion-label id="adr">{{providers[6].adresse}}</ion-label><br>
               </ion-card-content>
               <ion-toolbar end>
               <ion-buttons class='toolbar' right> 

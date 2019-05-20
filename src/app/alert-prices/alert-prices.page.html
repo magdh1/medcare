@@ -12,22 +12,27 @@
 </ion-header>
 
 <ion-content>
-  <ion-card class="cardList"> 
-    <ion-list>
+  <ion-card class="cardList">
+    <ion-list inset>
       <ion-list-header style="border-bottom: solid">
-        <ion-row>
+        <ion-row style="font-size: 18px"> 
           Service
         </ion-row>
-        <ion-row>
+        <ion-row style="font-size: 18px">
           Price LYD
         </ion-row>
       </ion-list-header>
-      <ion-row>
-
-      </ion-row>
-      <ion-row>
-        
-      </ion-row>
+  
+      <ion-row *ngFor="let serv of services">
+      <ion-col >
+       <h6>{{serv.service}}</h6>
+    </ion-col>
+    <ion-col>
+      <div class="listPrice">
+            <h6>{{serv.price}}</h6>
+         </div>
+    </ion-col>
+  </ion-row>
     </ion-list>
   </ion-card>
 </ion-content>

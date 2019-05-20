@@ -1,0 +1,95 @@
+{
+    "services": [
+     {
+       "service": "48h ECG",
+       "price": "390.-"
+     },
+     {
+        "service": "Doppler device",
+        "price": "150.-"
+     },
+     {
+        "service": "ECG",
+        "price": "45.-"
+     },
+     {
+        "service": "Examination Consultant Heart",
+        "price": "120.-"
+     },
+     {
+       "service": "Examination Spezialist Heart",
+       "price": "80.-"
+     },
+     {
+        "service": "Ultrasound",
+        "price": "45.-"
+      },
+      {
+        "service": "Follow-up Consultation",
+        "price": "100.-"
+      },
+      {
+        "service": "Stress ECG",
+        "price": "210.-"
+      },
+      {
+        "service": "Holter BP",
+        "price": "750.-"
+      },
+      {
+        "service": "GP Consulation",
+        "price": "30.-"
+      }
+    ],
+    "providers": [
+        {
+            "name": "Dar Alwafa",
+            "opH": "nA",
+            "phone": "0217225549",
+            "adresse": "Alintisar neighborhood, Tripolis",
+            "maps": "V533+54 حي الانتصار، Tripoli, Libyen"
+        },
+        {
+            "name": "Alreaya Alshamila",
+            "opH": "nA",
+            "phone": "0913731336",
+            "adresse": "Abdelrahman Street, Alandalus neighborhood, Tripolis",
+            "maps": "V4CM+27 Hai Alandalus, Tripoli, Libyen"
+        },
+        {
+            "name": "Firdaus",
+            "opH": "nA",
+            "phone": "021-7134444",
+            "adresse": "Kurtuba, Tripolis",
+            "maps": "V46G+JV قرطبة، Tripoli, Libyen"
+        },
+        {
+            "name": "Libyan Swiss Medical Center",
+            "opH": "nA",
+            "phone": "021-3614104",
+            "adresse": "Jaraba bin Ashour, Tripolis",
+            "maps": "V6F4+6P Tripolis, Libyen"
+        },
+        {
+            "name": "Taj Alseha Clinic",
+            "opH": "nA",
+            "phone": "0911100021",
+            "adresse": "Althil Street, Tripolis",
+            "maps": "V6F5+WM Tripolis, Libyen"
+        },
+        {
+            "name": "Libyan Maltese Medical Center",
+            "opH": "nA",
+            "phone": "021-2203764",
+            "adresse": "Bin Ashour, Tripolis",
+            "maps": "V6J6+QC Tripolis, Libyen"
+        },
+        {
+            "name": "Mukhtar Medical Clinic",
+            "opH": "nA",
+            "phone": "0213601239",
+            "adresse": "Jaraba Street, Bin Ashour, Tripolis",
+            "maps": "V6H2+89 Tripolis, Libyen"
+        }
+    ]
+    }
