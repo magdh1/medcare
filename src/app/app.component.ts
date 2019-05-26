@@ -27,7 +27,7 @@ export class AppComponent {
       icon: 'medkit'
     },
     {
-      title: 'Profil',
+      title: 'Profile',
       url: '/profile',
       icon: 'person'
     },

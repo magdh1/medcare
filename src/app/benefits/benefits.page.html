@@ -11,22 +11,36 @@
 
 <ion-content class="table">
   
-  <ion-row id="balanceTotal" style="border: solid">
-    <ion-label>
+  <ion-row id="balanceTotal">
+    <ion-label class="lblYB">
       Your balance: 
     </ion-label>
     <ion-label id="lblBalance">
-
+      + 9'920.-
     </ion-label>
   </ion-row>
   <ion-card>
-  <ion-row style="border-bottom: solid;">
-      <ion-col col-4>
-      <ion-label >Benefit</ion-label>
-    </ion-col>
-      <ion-col col-4 style="text-align: end">
-      <ion-label>Payed</ion-label>
-    </ion-col>
-  </ion-row>
+    <ion-list>
+    <ion-list-header style="border-bottom-style: groove">
+      <ion-row >
+        Benefit
+      </ion-row>
+      <ion-row>
+        Payed
+      </ion-row>
+    </ion-list-header>
+    <ion-row>
+      <ion-col>
+        Examination <br>
+        Credit
+      </ion-col>
+      <ion-col>
+        <div class="listPayed">
+        - 80.- <br>
+        + 10'000.-
+      </div>
+      </ion-col>
+    </ion-row>
+  </ion-list>
 </ion-card>
 </ion-content>

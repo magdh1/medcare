@@ -24,8 +24,8 @@
         <ion-label>Find the next...</ion-label>
       </ion-list-header>
         <a href='/adresse'><ion-button expand="block">Hospital</ion-button></a> 
-        <ion-button expand="block">Pharmacy</ion-button>
-        <ion-button expand="block">Doctor's office</ion-button>
-        <ion-button expand="block">Emergency reception</ion-button>
+        <ion-button expand="block" (click)="msgP()">Pharmacy</ion-button>
+        <ion-button expand="block" (click)="msgD()">Doctor's office</ion-button>
+        <ion-button expand="block" (click)="msgE()">Emergency reception</ion-button>
     </ion-list></ion-card>
 </ion-content>

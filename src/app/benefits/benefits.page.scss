@@ -6,5 +6,17 @@
 #balanceTotal {
     height: 30px;
     align-content: center;
+    border-style: groove;
+    border-color: darkgrey;
+    border-radius: 10px;
+}
+.listPayed {
+    float: right;
+}
+#lblBalance {
+    padding-left: 15px;
+}
+.lblYB {
+    padding-left: 5px;
 }
 
