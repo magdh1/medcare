@@ -18,6 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { CommonModule } from "@angular/common";
 
+import { FingerprintAIO } from '@ionic-native/fingerprint-aio';
+
+
 
 @Injectable({
   providedIn: 'root',
@@ -36,7 +39,7 @@ import { CommonModule } from "@angular/common";
     StatusBar,
     SplashScreen,
     LaunchNavigator,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
   ],
   bootstrap: [AppComponent]
 })

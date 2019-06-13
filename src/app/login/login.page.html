@@ -7,8 +7,8 @@
 </ion-header>
 
 <ion-content padding>
-<ion-img src="/assets/logo-medcare.PNG"></ion-img>
-<ion-input placeholder="Enter your insurancenumber"></ion-input><br>
-<ion-input placeholder="Enter your password"></ion-input>
-<a href="/home"><ion-button>Login</ion-button></a>
+<ion-img src="/assets/login.PNG"></ion-img>
+<ion-input placeholder="Enter your insurancenumber" [(ngModel)]="username"></ion-input><br>
+<ion-input type="password" placeholder="Enter your password" [(ngModel)]="password"></ion-input>
+<!-- <a href="/home"> --><ion-button (click)="onLogin()">Login</ion-button><!-- </a> -->
 </ion-content>

@@ -69,39 +69,5 @@ getHcp() {
       return await alert.present()
     }
 
-     
-
-  gMaps(){
-    /* this.map.getMyLocation().then((location) => {
-      var msg = ["I am here:\n","latitude:"+location.latLng.lat,
-    "longitude:"+location.latLng.lng].join("\n");
-
-    let position: CameraPosition = {
-      target: location.latLng,
-      zoom: 15
-    };
-    this.map.moveCamera(position);
-
-    let markerOptions: GoogleMapsMarkerOptions = {
-      'position': location.latLng,
-      'title': msg
-    };
-    this.map.addMarker(markerOptions).then((marker: GoogleMapsMarker) => {
-      marker.showInfoWindow();
-    });
-    }); */
-  /* let options: LaunchNavigatorOptions = {
-    start: 'Libya, ON',
-    app: LaunchNavigator.APPS.MAPS
-  } */
-  
-  this.launchNavigator.navigate('32.885353,13.180161')
-    .then(
-      success => console.log('Launched navigator'),
-      error => console.log('Error launching navigator', error)
-    ); 
 }
-}
-  /* navme(address){
-    this.launchNavigator.navigate(address);
-  } */
+ 

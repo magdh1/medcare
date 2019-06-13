@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class RestService {
 
-  apiUrl = 'http://192.168.162.114:3000';
+  apiUrl = 'http://147.87.116.59:3000';
 
   constructor(public http: HttpClient) {
     console.log('Hello RestServiceProvider Provider');
